@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ a {
+  color: black;
+  padding: 3px 0 1px 0;
+ }
+
+ p {
+  font-size: 13px;
+ }
+
+ a:hover {
+  color: white;
+  background-color: black;
+ }
+
+ main {
+  margin: 30px;
+ }
+
+ .copy {
+  margin: 10px 30px;
+ }
+
+ .copy-text {
+  line-height: 60px;
+ }
+
+ .index-content {
+  font-size: 13px;
+  line-height: 27px;
+ }
+
+ table td {
+  padding-left: 10px;
+ }
+
+ .new {
+  margin-top: 20px;
+ }
+ 
+ .new-content p {
+  margin-top: 10px;
+ }
+
+ input:invalid {
+  border:1px solid red;
+ }
+
+ .show-text {
+  line-height: 50px;
+  margin: 0 0 15px 40px;
+ }
+
+ .edit p {
+  margin-top: 10px;
+ }
+
+ .flash-message {
+  margin-left: 40px;
+  font-size: 13px;
+  line-height: 50px;
+  color: green;
+ }
+
+ .erroe-box {
+  height: 130px;
+  width: 450px;
+  background-color: #eeeeee;
+  border: 2px solid red;
+ }
+
+ .erroe-lead {
+  font-size: 12px;
+  background-color: #bb0000;
+  color: white;
+  padding: 5px 20px;
+ }
+
+ .erroe-box ul {
+  margin: 30px 80px;
+  font-size: 12px;
+  font-weight: normal;
+ }
