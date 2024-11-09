@@ -55,25 +55,41 @@
   padding-left: 10px;
  }
 
- .new {
-  margin-top: 20px;
- }
- 
- .new-content p {
-  margin-top: 10px;
+ .new-title {
+  margin: 20px 0 10px 0;
  }
 
- input:invalid {
-  border:1px solid red;
+ .new-content {
+  display: flex;
+  flex-direction: column;
+ }
+
+ label {
+  display: block;
+  font-size: 12px;
+ }
+
+ .title-label {
+  width: 28px;
+ }
+
+ .body-label {
+  width: 33px;
+ }
+
+ input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+ textarea {
+  display: block;
+  margin: 0 0 10px 0;
  }
 
  .show-text {
   line-height: 50px;
   margin: 0 0 15px 40px;
- }
-
- .edit p {
-  margin-top: 10px;
  }
 
  .flash-message {
@@ -86,6 +102,7 @@
  .erroe-box {
   height: 130px;
   width: 450px;
+  margin-bottom: 20px;
   background-color: #eeeeee;
   border: 2px solid red;
  }
@@ -101,4 +118,20 @@
   margin: 30px 80px;
   font-size: 12px;
   font-weight: normal;
+ }
+
+ .field_with_errors {
+  display: contents;
+  label {
+    background-color: red;
+    font-weight: normal;
+    padding: 2px 1px;
+  }
+  input {
+    border: 2px solid red;
+  }
+
+  textarea {
+    border: 2px solid red;
+  }
  }
